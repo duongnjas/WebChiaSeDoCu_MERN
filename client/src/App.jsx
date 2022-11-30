@@ -1,9 +1,10 @@
-import Header from './components/Header'
+import { BrowserRouter } from "react-router-dom";
+import ConfigRoute from "./ConfigRoute";
 function App() {
   return (
-    <div>
-      <Header/>
-    </div>
+    <BrowserRouter>
+      <ConfigRoute />
+    </BrowserRouter>
   );
 }
 
